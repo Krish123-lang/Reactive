@@ -29,3 +29,11 @@
 .student p {
     margin: 5px;
 }
+
+.success {
+    color: green;
+}
+
+.danger {
+    color: red;
+}

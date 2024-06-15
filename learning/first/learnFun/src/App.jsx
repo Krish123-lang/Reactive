@@ -2,6 +2,7 @@ import './App.css'
 import { ErrorMessage } from './components/ErrorMessage'
 import { FoodItems } from './components/FoodItems'
 import { Student } from './components/Student'
+import { UserGreeting } from './components/UserGreeting'
 // import { Content } from './components/Content'
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
       <Student name="Andrew Tate" age={30} isStudent={false} />
       <Student name="Musk" age={45} isStudent={false} />
       <Student name="Modi" age={90} isStudent={false} />
+
+      <UserGreeting isLoggedIn={true} username="Krishna" />
     </>
   )
 }
