@@ -1,0 +1,31 @@
+.avatar {
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.btn {
+    padding: 15px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.student {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid hsla(0, 0%, 50%, 0.8);
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    border: none;
+    margin: 5px;
+    background: linear-gradient(rgb(255, 0, 242), rgb(233, 35, 35));
+}
+
+.student p {
+    margin: 5px;
+}
