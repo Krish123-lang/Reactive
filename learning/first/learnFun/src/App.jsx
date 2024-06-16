@@ -1,4 +1,5 @@
 import './App.css'
+import { Button } from './components/Button'
 import { ErrorMessage } from './components/ErrorMessage'
 import { FoodItems } from './components/FoodItems'
 import { List } from './components/List'
@@ -47,6 +48,8 @@ function App() {
 
       {anotherFruits.length > 0 && <List items={anotherFruits} category="Fruits" />}
       {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />}
+
+      <Button />
     </>
   )
 }
