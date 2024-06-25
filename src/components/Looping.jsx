@@ -8,13 +8,13 @@ export const TestMap = () => {
 
             <ol>
                 {
-                    // Data.map(curElem => (
-                    //     <PropsPractice key={curElem.id} curElem={curElem} />
-                    // ))
-
                     Data.map(curElem => (
-                        <PropsPractice2 key={curElem.id} curElem={curElem} />
+                        <PropsPractice key={curElem.id} curElem={curElem} />
                     ))
+
+                    // Data.map(curElem => (
+                    //     <PropsPractice2 key={curElem.id} curElem={curElem} />
+                    // ))
                 }
             </ol>
         </>
