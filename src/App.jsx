@@ -1,12 +1,12 @@
-// import { TestMap } from './components/Looping'
+import { TestMap } from './components/Looping'
 import { MapData } from './components/LoopTwo'
 
 function App() {
   return (
     <>
-      {/* <TestMap /> */}
+      <TestMap />
 
-      <MapData />
+      {/* <MapData /> */}
     </>
   )
 }
