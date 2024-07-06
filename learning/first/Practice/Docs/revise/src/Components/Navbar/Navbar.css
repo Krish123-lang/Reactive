@@ -1,0 +1,26 @@
+.navbar {
+    padding-top: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px;
+    background-color: aqua;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar ul li a:hover {
+    color: rgb(204, 28, 22);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

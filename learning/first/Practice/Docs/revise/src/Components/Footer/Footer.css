@@ -1,0 +1,10 @@
+footer.footer {
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    bottom: 0;
+    position: sticky;
+    /* position: fixed; */
+}

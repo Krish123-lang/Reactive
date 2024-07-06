@@ -1,0 +1,14 @@
+.card {
+    width: 260px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(168, 53, 190);
+    overflow: auto;
+}
+
+.card .title {
+    padding-bottom: 10px;
+}
