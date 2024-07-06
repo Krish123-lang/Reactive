@@ -5,6 +5,7 @@ import "./App.css"
 import Data from './Components/Data/Data.json'
 import { Fragment } from "react";
 import { State } from "./Components/hooks/State/State";
+import { Effect } from "./Components/hooks/useEffect/Effect";
 
 
 export default function App() {
@@ -29,7 +30,11 @@ export default function App() {
       {/* Cards */}
       {/* ===================================================== */}
 
-      <State />
+      {/* === Hooks === */}
+      {/* <State /> */}
+      <Effect />
+      {/* === Hooks === */}
+
 
       {/* <Footer /> */}
     </>
