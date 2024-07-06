@@ -4,6 +4,10 @@ export const State = () => {
     const [count, setCount] = useState(0);
     const [name, setName] = useState("Doraemon");
     const [text, setText] = useState('');
+    const [username, setUsername] = useState('');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const [repeatpassword, setRepeatPassword] = useState('');
 
     const trimmedText = text.trim();
     const wordCount = trimmedText ? trimmedText.split(/\s+/).length : 0;
@@ -28,6 +32,20 @@ export const State = () => {
             <hr />
             <h3>Preview</h3>
             <p>{text}</p>
+            <hr />
+
+            {/* Form */}
+            <h1>Register</h1>
+            <form action="#" method='post'>
+                <input type="text" name="text" id="text" placeholder='Username' onChange={(event) => setUsername(event.target.value)} autoComplete='off' />
+                <input type="email" name="email" id="email" placeholder='Email' onChange={(event) => setEmail(event.target.value)} autoComplete='off' />
+                <input type="password" name="password" id="password" placeholder='Password' onChange={(event) => setPassword(event.target.value)} autoComplete='off' />
+                <input type="password" name="repeat-password" id="repeat-password" placeholder='Repeat Password' onChange={(event) => setRepeatPassword(event.target.value)} autoComplete='off' />
+                <input type="submit" value="Create Account" />
+            </form>
+
+            <p>Username: {username}</p>
+            <p>email: {email}</p>
         </>
     );
 };
