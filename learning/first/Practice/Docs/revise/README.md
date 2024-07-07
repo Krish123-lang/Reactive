@@ -11,4 +11,5 @@
 # UseEffect Hook
 ![useEffect](image-3.png)
 ![useEffect](image-4.png)
+![useEffect](image-5.png)
 --

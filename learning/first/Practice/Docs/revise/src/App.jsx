@@ -3,12 +3,16 @@ import Card from "./Components/Card/Card";
 import Navbar from "./Components/Navbar/Navbar";
 import "./App.css"
 import Data from './Components/Data/Data.json'
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { State } from "./Components/hooks/State/State";
 import { Effect } from "./Components/hooks/useEffect/Effect";
+import Callback from "./Components/hooks/Callback/Callback";
+import Effect2 from "./Components/hooks/useEffect/Effect2";
 
 
 export default function App() {
+  const [count, setCount] = useState(0)
+
   return (
     <>
       {/* <Navbar /> */}
@@ -29,10 +33,15 @@ export default function App() {
       } */}
       {/* Cards */}
       {/* ===================================================== */}
+      <h1>Count: {count}</h1>
+      <button onClick={() => setCount(count + 1)}>Click</button>
 
       {/* === Hooks === */}
       {/* <State /> */}
-      <Effect />
+      {/* <Effect /> */}
+      <Effect2 />
+
+      {/* <Callback /> */}
       {/* === Hooks === */}
 
 
