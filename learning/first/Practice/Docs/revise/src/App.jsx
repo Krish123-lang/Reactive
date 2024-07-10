@@ -8,6 +8,7 @@ import { State } from "./Components/hooks/State/State";
 import { Effect } from "./Components/hooks/useEffect/Effect";
 import Callback from "./Components/hooks/Callback/Callback";
 import Effect2 from "./Components/hooks/useEffect/Effect2";
+import Memo from "./Components/hooks/Memo/Memo";
 
 
 export default function App() {
@@ -39,7 +40,9 @@ export default function App() {
       {/* === Hooks === */}
       {/* <State /> */}
       {/* <Effect /> */}
-      <Effect2 />
+      {/* <Effect2 /> */}
+
+      <Memo />
 
       {/* <Callback /> */}
       {/* === Hooks === */}
