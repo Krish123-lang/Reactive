@@ -9,6 +9,7 @@ import { Effect } from "./Components/hooks/useEffect/Effect";
 import Callback from "./Components/hooks/Callback/Callback";
 import Effect2 from "./Components/hooks/useEffect/Effect2";
 import Memo from "./Components/hooks/Memo/Memo";
+import Ref from "./Components/hooks/Ref/Ref";
 
 
 export default function App() {
@@ -42,7 +43,9 @@ export default function App() {
       {/* <Effect /> */}
       {/* <Effect2 /> */}
 
-      <Memo />
+      {/* <Memo /> */}
+
+      <Ref count={count} />
 
       {/* <Callback /> */}
       {/* === Hooks === */}
