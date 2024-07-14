@@ -1,7 +1,9 @@
 import './App.css'
-import Events from './Components/Events'
-import Form from './Components/Form/Form'
-import List from './Components/List'
+import Api from './Components/API/Api'
+import Effect from './Components/API/Effect'
+// import Events from './Components/Events'
+// import Form from './Components/Form/Form'
+// import List from './Components/List'
 import Data from './Data.json'
 function App() {
 
@@ -9,7 +11,9 @@ function App() {
     <>
       {/* <List data={Data} /> */}
       {/* <Events /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <Api /> */}
+      <Effect />
     </>
   )
 }
